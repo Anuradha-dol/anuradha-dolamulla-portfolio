@@ -1,0 +1,351 @@
+window.PORTFOLIO_PROJECTS = [
+  {
+    id: 'agrolink',
+    title: 'AgroLink Hub',
+    subtitle: 'End-to-End Social Commerce Platform for Producers, Buyers and Creators',
+    category: 'Full Stack',
+    badge: 'Individual Full Stack',
+    type: 'Individual / Portfolio Project',
+    status: 'Complete platform showcase',
+    featured: true,
+    spotlight: true,
+    evidence: 'Marketplace + social feed + realtime chat + admin moderation + 41 UI screens',
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/agrolink-hub-social-commerce-platform',
+    preview: 'assets/previews/agrolink.webp',
+    stack: ['React', 'Vite', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'JPA/Hibernate', 'JWT', 'OAuth2', 'WebSocket/STOMP', 'Axios', 'SMTP OTP'],
+    role: 'Full-stack implementation covering social posts, marketplace ordering, seller/admin workspaces, realtime communication, notifications and documentation cleanup.',
+    description: 'A large full-stack community marketplace that connects social networking, seller workspaces, product discovery, cart/order flows, support, moderation, realtime chat and notifications into one connected platform.',
+    highlights: ['Role-based workspaces for users, creators, farmers, businesses and admins', 'Posts, stories, comments, reactions, friends, follows and notifications', 'Seller pages, products, cart, checkout, reviews and order management', 'Realtime chat and support workflows'],
+    docs: [
+      { label: 'Project Report', href: 'assets/docs/agrolink-report.pdf' },
+      { label: 'UI Screenshot Guide', href: 'assets/docs/agrolink-screenshot-guide.pdf' }
+    ]
+  },
+  {
+    id: 'unilearn',
+    title: 'UniLearn Hub',
+    subtitle: 'Full-Stack Learning and Student Collaboration Platform',
+    category: 'Academic Group',
+    badge: 'Academic Group',
+    type: 'Y3S1 ITPM Group Project',
+    status: 'Final branch documented',
+    featured: true,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/UnilearnhubRepo',
+    preview: 'assets/previews/unilearn.webp',
+    stack: ['React', 'Vite', 'Tailwind CSS', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'JWT', 'HTTP-only Cookies', 'WebSocket', 'SSE', 'SMTP OTP'],
+    role: 'User management, authentication, OTP verification, JWT cookie security, profile/account settings, support/problem asking chat and review flows.',
+    description: 'A university learning platform for academic resources, student support, community posts, task planning, realtime chat and admin workflows.',
+    highlights: ['Secure registration, login, OTP and account recovery', 'Realtime user-to-user and user-to-admin problem asking chat', 'Knowledge sharing, resource management and task planning modules', 'Admin workflows and member-wise documentation'],
+    docs: [
+      { label: 'Professional Case Study', href: 'assets/docs/unilearn-hub-case-study.pdf' }
+    ]
+  },
+  {
+    id: 'smart-campus',
+    title: 'Uni Sphere - Smart Campus Operations Hub',
+    subtitle: 'Campus Resource, Booking, Auth and Notification System',
+    category: 'Academic Group',
+    badge: 'Academic Group',
+    type: 'IT3030 PAF Group Project',
+    status: 'Final submission documented',
+    featured: true,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/it3030-paf-2026-smart-campus-Group_Project-WE-42',
+    preview: 'assets/previews/smart-campus.webp',
+    stack: ['React', 'Vite', 'Spring Boot', 'Spring Security', 'MySQL', 'JPA', 'JWT', 'OAuth2', 'Face API', 'WebSocket', 'SMTP OTP'],
+    role: 'Authentication, authorization, OTP, Google OAuth2, Face ID login, JWT with HTTP-only cookies, role management and realtime notifications.',
+    description: 'A smart campus service-management system where students can access campus resources, request bookings, manage profiles and receive realtime status updates.',
+    highlights: ['SLIIT email OTP verification and secure login', 'Google OAuth2 and Face ID login support', 'Resource management and booking approval flow', 'Realtime notifications for booking and ticket events'],
+    docs: [
+      { label: 'Project Documentation', href: 'assets/docs/smart-campus-project-documentation.pdf' },
+      { label: 'UI Screenshots', href: 'assets/docs/smart-campus-ui-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'catch-my-bus',
+    title: 'Catch My Bus',
+    subtitle: 'Realtime Public Transport Mobile UI Concept',
+    category: 'Academic Assignment',
+    badge: 'Academic Assignment',
+    type: 'IT2010 Mobile Application Development Lab Exam 01',
+    status: 'PDF report attached',
+    featured: false,
+    year: '2025',
+    repo: '',
+    preview: 'assets/previews/catch-my-bus.webp',
+    stack: ['Mobile UI', 'Android UX', 'Prototype Interaction', 'Map UI', 'Route Planning', 'Transport UX', 'UI Screenshots'],
+    role: 'Designed the mobile app concept, onboarding flow, login/register screens, realtime bus tracking screens and passenger-focused route planning interface.',
+    description: 'A Sri Lankan public transport mobile concept that helps passengers track CTB and private buses, view estimated arrival details, plan routes, save favourite buses and check ticket information.',
+    highlights: ['Launch screen and onboarding sequence for first-time passengers', 'Realtime bus tracking map and nearby bus listings', 'Route planner, favourite buses and trip booking concepts', 'Report includes UI screenshots and mobile design evidence'],
+    docs: [
+      { label: 'Lab Exam 01 Report', href: 'assets/docs/IT23687882 (11).pdf' }
+    ]
+  },
+  {
+    id: 'coffee-commerce',
+    title: 'Coffee Connect',
+    subtitle: 'Coffee Farmer, Supplier and Customer Mobile Commerce App',
+    category: 'Academic Assignment',
+    badge: 'Academic Assignment',
+    type: 'IT2010 Mobile Application Development Lab Exam 02',
+    status: 'PDF report attached',
+    featured: false,
+    year: '2025',
+    repo: '',
+    preview: 'assets/previews/coffee-commerce.webp',
+    stack: ['Android UI', 'XML Resources', 'Mobile UX', 'Map Discovery', 'Commerce Flow', 'Payment Flow', '60-30-10 Color Rule'],
+    role: 'Created the mobile interface concept, onboarding screens, authentication flow, product discovery, farmer discovery map, cart, payment and notification screens.',
+    description: 'A coffee-focused mobile commerce concept connecting farmers, suppliers, businesses and customers through discovery, direct farm support, rewards, cart/payment flows and map-based farmer exploration.',
+    highlights: ['Onboarding story focused on coffee farmers and responsible sourcing', 'Home, farmer details, map discovery and export-house screens', 'Cart, payment, OTP verification and payment success screens', 'Report includes screenshots plus strings and colors XML evidence'],
+    docs: [
+      { label: 'Lab Exam 02 Report', href: 'assets/docs/IT23687882 (10).pdf' }
+    ]
+  },
+  {
+    id: 'network-infrastructure',
+    title: 'Virtual Network Infrastructure',
+    subtitle: 'DNS, Mail Server and TCP Client-Server Implementation',
+    category: 'Academic Assignment',
+    badge: 'Academic Assignment',
+    type: 'IT3010 Network Design and Management Assignment',
+    status: 'PDF report attached',
+    featured: false,
+    year: '2026',
+    repo: '',
+    preview: 'assets/previews/network-infrastructure.webp',
+    stack: ['Linux', 'CentOS', 'Fedora', 'VMware', 'DNS', 'BIND', 'Postfix', 'TCP/IP', 'C Socket Programming', 'firewalld', 'nmcli'],
+    role: 'Configured the virtual network environment, static addressing, hostnames, DNS service, internal mail service and a TCP client-server application with testing evidence.',
+    description: 'A network design and management assignment implementing a small virtual infrastructure with DNS, mail server services and a C-based TCP client-server program for date/time communication.',
+    highlights: ['Virtual machine network adapter and static IP configuration', 'DNS server setup for the custom student domain environment', 'Postfix mail server setup with local users and Maildir verification', 'TCP client-server program tested across virtual machines'],
+    docs: [
+      { label: 'Network Assignment Report', href: 'assets/docs/IT23687882 MADUVINDA D K A.pdf' }
+    ]
+  },
+  {
+    id: 'pulsechat',
+    title: 'PulseChat',
+    subtitle: 'Spring Boot + React Real-Time Chat Application',
+    category: 'Realtime',
+    badge: 'Individual Realtime',
+    type: 'Individual Full-Stack Project',
+    status: 'Portfolio ready',
+    featured: true,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/springboot-react-realtime-chat',
+    preview: 'assets/previews/pulsechat.webp',
+    stack: ['React', 'Vite', 'Redux Toolkit', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'JWT', 'HttpOnly Cookies', 'WebSocket', 'STOMP', 'Spring Mail'],
+    role: 'Designed and built the connected auth, profile, private/group chat, poll, media and realtime messaging workflow.',
+    description: 'A production-style chat project with secure account registration, email verification, private chats, group chats, media messages, replies, polls, presence and realtime updates.',
+    highlights: ['JWT access/refresh handling with cookie support', 'Private and group chat with STOMP/WebSocket events', 'Typing indicators, seen states, polls and presence updates', 'Profile, cover, media upload and account management'],
+    docs: [
+      { label: 'Project Report', href: 'assets/docs/pulsechat-project-report.pdf' },
+      { label: 'Full Overview + UI', href: 'assets/docs/pulsechat-full-overview-ui.pdf' }
+    ]
+  },
+  {
+    id: 'chatsphere',
+    title: 'ChatSphere',
+    subtitle: 'MERN Real-Time Chat Application',
+    category: 'Realtime',
+    badge: 'Individual MERN',
+    type: 'Individual Full-Stack Project',
+    status: 'Portfolio ready',
+    featured: true,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/mern-chat-app-jwt-socketio',
+    preview: 'assets/previews/chatsphere.webp',
+    stack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Socket.IO', 'JWT', 'HTTP-only Cookies', 'Cloudinary', 'Multer', 'Axios', 'Material UI'],
+    role: 'Built MERN authentication, realtime messaging, profile handling, image upload, theme settings and documentation.',
+    description: 'A MERN chat system that moves from a clean landing page into signup, login and a realtime one-to-one messaging dashboard.',
+    highlights: ['JWT auth using HTTP-only cookies', 'Realtime online/offline status and message events', 'Image messages, profile image update and Cloudinary upload', 'Editable and soft-deleted messages'],
+    docs: [
+      { label: 'Project Report', href: 'assets/docs/chatsphere-project-report.pdf' },
+      { label: 'UI Screenshots', href: 'assets/docs/chatsphere-ui-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'bondly',
+    title: 'Bondly',
+    subtitle: 'Full-Stack Social Media Web Application',
+    category: 'Full Stack',
+    badge: 'Individual Social App',
+    type: 'Individual Full-Stack Project',
+    status: 'Portfolio ready',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/first-spring-boot-social-media-website',
+    preview: 'assets/previews/bondly.webp',
+    stack: ['React', 'Vite', 'Material UI', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'JWT', 'SSE', 'Spring Mail', 'JPA'],
+    role: 'Built the auth flow, user profiles, post interactions, notification/support flows and project documentation.',
+    description: 'A social media project focused on real backend-to-frontend workflows: registration, OTP verification, posts, comments, reactions, shares, friends, follows, notifications, support and reviews.',
+    highlights: ['Email OTP registration and forgot-password flow', 'Posts, comments, reactions, shares and feed views', 'Friend/follow workflows and user search', 'Realtime-style notification and support updates using SSE'],
+    docs: [
+      { label: 'Project Report', href: 'assets/docs/bondly-report.pdf' },
+      { label: 'UI Walkthrough', href: 'assets/docs/bondly-ui-walkthrough.pdf' }
+    ]
+  },
+  {
+    id: 'authportal',
+    title: 'AuthPortal',
+    subtitle: 'Spring Boot JWT Cookie Authentication System',
+    category: 'Security',
+    badge: 'Security Auth System',
+    type: 'Individual Full-Stack Project',
+    status: 'Portfolio ready',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/springboot-jwt-cookie-auth',
+    preview: 'assets/previews/authportal.webp',
+    stack: ['React', 'Vite', 'Material UI', 'Spring Boot', 'Spring Security', 'PostgreSQL', 'JWT', 'HttpOnly Cookies', 'BCrypt', 'Spring Mail'],
+    role: 'Implemented the security-centered account lifecycle: registration, OTP, login, protected routes, forgot password, email updates and account deletion.',
+    description: 'A focused authentication project for practicing real-world account flows, protected API access, profile management and secure cookie-based JWT handling.',
+    highlights: ['Email OTP registration and resend controls', 'JWT access/refresh cookie behavior', 'Forgot password with verified OTP flow', 'Email change, password update and account deletion'],
+    docs: [
+      { label: 'Project Overview', href: 'assets/docs/authportal-project-overview.pdf' }
+    ]
+  },
+  {
+    id: 'hotel',
+    title: 'Golden Brown Haven',
+    subtitle: 'Hotel Management Web Application',
+    category: 'Full Stack',
+    badge: 'Individual Full Stack',
+    type: 'Individual Full-Stack Project',
+    status: 'Portfolio ready',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/springboot-Hotel-Management-System',
+    preview: 'assets/previews/hotel.webp',
+    stack: ['React', 'Vite', 'Material UI', 'Spring Boot', 'Spring Security', 'MySQL', 'JWT', 'JPA', 'AWS S3', 'Recharts'],
+    role: 'Built customer booking workflows, admin room/guest/booking dashboards, JWT auth flow, image upload support and analytics screens.',
+    description: 'A hotel management system with customer room browsing, booking, booking history, admin dashboards, room management, guest management and analytics.',
+    highlights: ['JWT-based admin/customer routing', 'Room availability and booking conflict logic', 'Admin room CRUD and image upload support', 'Dashboard analytics with chart-based UI'],
+    docs: [
+      { label: 'Project Documentation', href: 'assets/docs/hotel-project-documentation.pdf' },
+      { label: 'UI Screenshots', href: 'assets/docs/hotel-ui-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'aa-auto-mart',
+    title: 'A-A Auto Mart Car Sale',
+    subtitle: 'MERN Vehicle Sales and Service Platform',
+    category: 'Academic Group',
+    badge: 'Academic Group',
+    type: 'Y2S2 ITP Group Project',
+    status: 'Final branch documented',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/A-A-Auto-Mart-Car-Sale',
+    preview: 'assets/previews/aa-auto-mart.webp',
+    stack: ['React', 'Vite', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT', 'Multer', 'Axios', 'Material UI', 'Recharts'],
+    role: 'Employee management, salary and leave workflows, final integration, Git cleanup, security cleanup and documentation.',
+    description: 'A full-stack MERN platform for vehicle listings, parts, mechanic requests, orders, payments, employees, reviews and support workflows.',
+    highlights: ['Vehicle, parts, mechanic, order and payment modules', 'Employee salary and leave management', 'Support tickets, reviews and sentiment-style review analysis', 'Integrated final branch with cleaned dependencies and docs'],
+    docs: [
+      { label: 'Project Overview Report', href: 'assets/docs/aa-auto-mart-report.pdf' },
+      { label: 'UI Screenshots', href: 'assets/docs/aa-auto-mart-ui-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'medicare-plus',
+    title: 'MediCare Plus',
+    subtitle: 'Online Medicine Management System',
+    category: 'Academic Group',
+    badge: 'Academic Group',
+    type: 'Y2S1 OOP Group Project',
+    status: 'Complete documentation',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/medicare-plus-online-medicine-management-system',
+    preview: 'assets/previews/medicare-plus.webp',
+    stack: ['Java', 'JSP', 'Servlets', 'JDBC', 'MySQL', 'Maven', 'Tomcat', 'HTML', 'CSS', 'JavaScript'],
+    role: 'Customer medicine browsing, cart, checkout, order tracking, delivery selection and customer-to-admin issue messaging.',
+    description: 'A Java JSP/Servlet online pharmacy system with customer ordering, pharmacist inventory/order handling and admin approval/support workflows.',
+    highlights: ['Customer cart, checkout and delivery method validation', 'Pharmacist inventory, medicine CRUD and fulfilment status', 'Admin pharmacist approval and support handling', 'Role-separated dashboards using MVC-style Java web structure'],
+    docs: [
+      { label: 'Project Report', href: 'assets/docs/medicare-plus-report.pdf' },
+      { label: 'UI Screenshots Guide', href: 'assets/docs/medicare-plus-ui-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'apex-exam',
+    title: 'Apex Exam',
+    subtitle: 'Online Examination System',
+    category: 'Academic Group',
+    badge: 'Academic Group',
+    type: 'Y1S2 PHP/MySQL Group Project',
+    status: 'Complete showcase',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/apex-exam-online-examination-system',
+    preview: 'assets/previews/apex-exam.webp',
+    stack: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'XAMPP', 'phpMyAdmin'],
+    role: 'Smart Student Examination System: available exam listing, exam start/resume, countdown timer, auto-submit, single attempt and instant result display.',
+    description: 'A role-based online exam system with admin, lecturer and student dashboards for modules, exams, MCQ questions, timed attempts and result handling.',
+    highlights: ['Admin, lecturer and student role separation', 'Timed exam attempt with auto-submit behavior', 'Single attempt control and server-side deadline validation', 'Instant scoring and result history'],
+    docs: [
+      { label: 'Project Overview + UI', href: 'assets/docs/apex-exam-report-ui.pdf' }
+    ]
+  },
+  {
+    id: 'practiceport',
+    title: 'PracticePort',
+    subtitle: 'Android Wellness Tracker',
+    category: 'Mobile',
+    badge: 'Individual Android App',
+    type: 'Android / Kotlin Project',
+    status: 'Complete documentation',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/practiceport-android-wellness-tracker',
+    preview: 'assets/previews/practiceport.webp',
+    stack: ['Kotlin', 'Android XML', 'ViewBinding', 'Material Components', 'SharedPreferences', 'WorkManager', 'MPAndroidChart', 'AppWidgetProvider'],
+    role: 'Built a local-first Android wellness app with habit, mood, hydration, reminder, chart and widget workflows.',
+    description: 'A native Android app for managing daily habits, mood journal entries, hydration goals, reminders, progress charts, local storage and a home screen progress widget.',
+    highlights: ['Habit dashboard with completion and progress analytics', 'Mood journal with calendar, trend chart and share/edit/delete actions', 'Hydration tracker with custom goals and reminders', 'Home screen widget and tablet-aware layouts'],
+    docs: [
+      { label: 'Overview + UI Screenshots', href: 'assets/docs/practiceport-overview-ui-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'goalrush',
+    title: 'GoalRush 2D',
+    subtitle: 'HTML5 Canvas Football Game',
+    category: 'Game',
+    badge: 'Individual Game',
+    type: 'Individual Browser Game',
+    status: 'Complete showcase',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/javascript-football-game',
+    preview: 'assets/previews/goalrush.webp',
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Canvas', 'LocalStorage'],
+    role: 'Built the gameplay loop, UI screens, character selection, settings, audio, score tracking and documentation.',
+    description: 'A lightweight browser-based 2D football game with launch screen, menus, character selection, match play, AI opponent, high scores and replay/pause flows.',
+    highlights: ['Canvas-based football gameplay and simple AI opponent', 'Character selection, menu screens and match states', 'Audio settings, sound effects and localStorage scores', 'No framework or backend required'],
+    docs: [
+      { label: 'Project Documentation', href: 'assets/docs/goalrush-documentation.pdf' },
+      { label: 'UI Screenshots', href: 'assets/docs/goalrush-screenshots.pdf' }
+    ]
+  },
+  {
+    id: 'playwright-qa',
+    title: 'Singlish Transliteration QA',
+    subtitle: 'Playwright Automation Testing Project',
+    category: 'QA Automation',
+    badge: 'QA Automation Assignment',
+    type: 'IT3040 ITPM Assignment',
+    status: 'Repository documented',
+    featured: false,
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/IT23687882_Assignment1_Option1',
+    preview: 'assets/previews/playwright-qa.webp',
+    stack: ['Python', 'Playwright', 'Excel', 'Automation Testing', 'Negative Test Cases'],
+    role: 'Designed and automated transliteration accuracy tests for Chat Sinhala / Singlish-to-Sinhala input behavior.',
+    description: 'A QA automation project with Playwright scripts and an Excel-based test suite for Singlish-to-Sinhala transliteration accuracy testing.',
+    highlights: ['50 negative test cases', 'Coverage across 24 Singlish input categories', 'Automation script writes actual output and status back to Excel', 'Windows quick-run batch file included'],
+    docs: []
+  }
+];

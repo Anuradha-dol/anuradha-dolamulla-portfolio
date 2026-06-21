@@ -1,153 +1,88 @@
-# Anuradha Dolamulla – Developer Portfolio
+# Anuradha Dolamulla - Developer Portfolio
 
-A modern professional developer portfolio showcasing my academic, individual, and full-stack software development projects.
+Professional static portfolio for my full-stack development projects, academic work, UI reports and software engineering evidence.
 
-This portfolio highlights my practical experience in building web applications using technologies such as Java, Spring Boot, React, JavaScript, PHP, MySQL, PostgreSQL, MongoDB, WebSocket, JWT authentication, and REST APIs.
+The portfolio highlights practical experience with Java, Spring Boot, React, MERN stack, PHP/MySQL, PostgreSQL, MongoDB, WebSocket, JWT authentication, Android UI work, Linux networking and QA automation.
 
 ## About Me
 
-I am Anuradha Dolamulla, an IT undergraduate at SLIIT with a strong interest in full-stack development, secure authentication systems, real-time applications, and practical software engineering projects.
+I am Anuradha Dolamulla, an IT undergraduate at SLIIT focused on full-stack development, secure authentication systems, real-time applications and practical software engineering projects.
 
-My work mainly focuses on building complete application workflows including authentication, user management, admin dashboards, marketplace features, chat systems, notification systems, reports, and responsive user interfaces.
+My work focuses on complete application workflows including authentication, user management, admin dashboards, marketplace features, chat systems, notification systems, reports and responsive user interfaces.
 
 ## Portfolio Highlights
 
-This portfolio includes selected projects from my academic and personal development journey, including:
+Selected projects and academic work include:
 
-* Smart Campus Operations Hub
-* UniLearn Hub
 * AgroLink Hub
+* UniLearn Hub
+* Uni Sphere Smart Campus Operations Hub
+* PulseChat
+* ChatSphere
+* Bondly
+* AuthPortal
+* Golden Brown Haven Hotel Management System
+* A-A Auto Mart Car Sale
 * MediCare Plus
 * Apex Exam Online Examination System
-* A&A Auto Mart
-* ChatSphere Real-Time Chat App
-* PulseChat MERN Chat App
-* Spring Boot JWT Cookie Authentication System
-* Hotel Management System
-* Playwright QA Automation Project
+* PracticePort Android Wellness Tracker
 * GoalRush 2D Football Game
-* PracticePort UI Project
+* Singlish Transliteration QA
+* Catch My Bus mobile UI assignment
+* Coffee Connect mobile commerce assignment
+* Virtual Network Infrastructure assignment
 
-Each project card includes relevant details such as:
+Each project card includes:
 
 * Project overview
 * Technology stack
-* GitHub repository link
-* Project report download
-* UI screenshot guide download
-
-## Tech Stack
-
-### Frontend
-
-* React
-* Vite
-* JavaScript
-* HTML5
-* CSS3
-* Bootstrap
-
-### Backend
-
-* Java
-* Spring Boot
-* Spring Security
-* PHP
-* Node.js
-* Express.js
-
-### Databases
-
-* MySQL
-* PostgreSQL
-* MongoDB
-
-### Tools & Other Technologies
-
-* Git & GitHub
-* JWT Authentication
-* OAuth2
-* WebSocket
-* REST APIs
-* SMTP / OTP Workflows
-* Playwright
-* Figma
-* Postman
+* My contribution
+* GitHub repository link when available
+* Project report or UI screenshot PDF links
 
 ## Features
 
-* Modern dark developer portfolio design
-* Project-first layout
-* Search and category filtering
-* Project details modal
+* Professional dark portfolio interface
+* Portrait-based landing page
+* Project search and category filtering
+* Project detail modal
 * GitHub repository links
-* Downloadable project reports
-* Downloadable UI screenshot guides
-* Responsive layout for desktop and mobile
+* Downloadable or viewable project reports
+* Real PDF-based preview assets for new academic assignments
+* Scroll reveal motion and progress indicator
+* Responsive desktop and mobile layout
 * GitHub Pages ready structure
 
 ## Project Structure
 
-```bash
+```text
 anuradha-dolamulla-portfolio/
-│
-├── index.html
-├── 404.html
-├── README.md
-├── DEPLOYMENT.md
-│
-└── assets/
-    └── documents/
-        ├── project reports
-        └── UI screenshot guides
+|-- index.html
+|-- 404.html
+|-- README.md
+|-- DEPLOYMENT.md
+|-- assets/
+|   |-- css/
+|   |-- docs/
+|   |-- images/
+|   |-- js/
+|   `-- previews/
 ```
 
-## How to Run Locally
+## Run Locally
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Anuradha-dol/anuradha-dolamulla-portfolio.git
-```
-
-2. Open the project folder:
-
-```bash
-cd anuradha-dolamulla-portfolio
-```
-
-3. Open `index.html` in your browser.
-
-No backend setup is required because this portfolio is a static website.
+Open `index.html` directly in a browser. No backend or build step is required.
 
 ## Deployment
 
-This portfolio can be deployed using GitHub Pages.
-
-### GitHub Pages Steps
-
-1. Go to repository **Settings**
-2. Select **Pages**
-3. Under **Build and deployment**, choose:
-
-   * Source: `Deploy from a branch`
-   * Branch: `main`
-   * Folder: `/root`
-4. Click **Save**
-5. Wait until GitHub generates the live portfolio link
-
-## Purpose
-
-The purpose of this portfolio is to present my software development journey in a professional way for internship applications, LinkedIn profile showcasing, GitHub profile improvement, and future career opportunities.
+This portfolio can be deployed with GitHub Pages, Netlify or Vercel as a static site. For GitHub Pages, publish the repository root from the `main` branch.
 
 ## Author
 
-**Anuradha Dolamulla**
+Anuradha Dolamulla  
 IT Undergraduate | Full-Stack Developer
 
-GitHub: [Anuradha-dol](https://github.com/Anuradha-dol)
-LinkedIn: [Anuradha Dolamulla](https://www.linkedin.com/)
+GitHub: [Anuradha-dol](https://github.com/Anuradha-dol)  
+LinkedIn: [Anuradha Dolamulla](https://www.linkedin.com/in/anuradha-dollamulla-454354386)
 
----
-
-© 2026 Anuradha Dolamulla. All rights reserved.
+&copy; 2026 Anuradha Dolamulla. All rights reserved.
