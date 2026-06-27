@@ -4260,3 +4260,61 @@ body {
     padding: 2px 6px;
   }
 }
+
+/* Responsive stability: keep decorative section glows from widening tablet/mobile layouts. */
+@media (max-width: 1120px) {
+  .featured-section::before,
+  .projects::before {
+    inset-inline: 0 !important;
+  }
+}
+
+/* Responsive text containment: prevent hero copy from clipping on narrow screens. */
+@media (max-width: 720px) {
+  .status-pill,
+  .eyebrow {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    line-height: 1.35;
+    overflow-wrap: break-word;
+  }
+
+  .status-pill span,
+  .eyebrow::before {
+    display: inline-block;
+    margin-right: 9px;
+    vertical-align: 0.05em;
+  }
+
+  h1 {
+    max-width: 100%;
+    font-size: 3rem !important;
+    line-height: 1;
+    letter-spacing: -0.055em;
+  }
+
+  h1 span {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.35rem !important;
+    letter-spacing: -0.05em;
+  }
+
+  .status-pill,
+  .eyebrow {
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2.1rem !important;
+  }
+}
