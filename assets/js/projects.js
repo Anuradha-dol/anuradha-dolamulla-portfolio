@@ -23,6 +23,28 @@ window.PORTFOLIO_PROJECTS = [
     ]
   },
   {
+    id: 'civicsafe-lanka',
+    title: 'CivicSafe Lanka',
+    subtitle: 'Citizen Complaint and Emergency Alert Platform for Sri Lanka',
+    category: 'Full Stack',
+    badge: 'Individual Civic Tech',
+    type: 'Individual Full-Stack Project',
+    status: 'Public, user and admin workflows implemented',
+    featured: true,
+    evidence: 'Citizen reports + public alerts + civic complaints + protected admin review workspace',
+    year: '2026',
+    repo: 'https://github.com/Anuradha-dol/civicsafe-lanka',
+    preview: 'assets/previews/civicsafe-lanka.jpg',
+    stack: ['Next.js 16', 'App Router', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Prisma', 'JWT', 'HTTP-only Cookies', 'bcrypt', 'Local Image Uploads'],
+    role: 'Built the complete civic safety workflow covering landing page, app workspace, authentication, report submission, status tracking, public alerts, complaint handling, admin review and project documentation.',
+    description: 'A Sri Lankan public safety platform where citizens can report local dangers, track report status, view verified public alerts, submit civic complaints and support admin users who review reports, publish alerts and manage users.',
+    highlights: ['Public alert search by district, location, area, category, route and message', 'Citizen safety report submission with image uploads and private status tracking', 'Rejected report resend flow with admin block-and-reject support', 'Admin reports, complaints, statistics, user list and role management'],
+    docs: [
+      { label: 'Project Report', href: 'assets/docs/civicsafe-lanka-project-report.pdf' },
+      { label: 'UI Screenshots', href: 'assets/docs/civicsafe-lanka-ui-screenshots.pdf' }
+    ]
+  },
+  {
     id: 'unilearn',
     title: 'UniLearn Hub',
     subtitle: 'Full-Stack Learning and Student Collaboration Platform',

@@ -21,14 +21,15 @@
     if (value.includes('java') && !value.includes('javascript')) return 'coffee';
     if (value.includes('spring security')) return 'shield';
     if (value.includes('spring')) return 'leaf';
+    if (value.includes('next') || value.includes('app router')) return 'bolt';
     if (value.includes('react')) return 'atom';
     if (value.includes('vite')) return 'bolt';
     if (value.includes('node')) return 'hex';
     if (value.includes('express')) return 'route';
-    if (value.includes('mongo') || value.includes('postgres') || value.includes('mysql')) return 'database';
-    if (value.includes('jwt') || value.includes('oauth') || value.includes('otp')) return 'key';
+    if (value.includes('mongo') || value.includes('postgres') || value.includes('mysql') || value.includes('prisma')) return 'database';
+    if (value.includes('jwt') || value.includes('oauth') || value.includes('otp') || value.includes('cookie') || value.includes('bcrypt')) return 'key';
     if (value.includes('websocket') || value.includes('stomp') || value.includes('socket')) return 'signal';
-    if (value.includes('jsp') || value.includes('servlet') || value.includes('php')) return 'code';
+    if (value.includes('typescript') || value.includes('tailwind') || value.includes('jsp') || value.includes('servlet') || value.includes('php')) return 'code';
     if (value.includes('kotlin') || value.includes('android')) return 'mobile';
     if (value.includes('playwright') || value.includes('qa')) return 'check';
     if (value.includes('linux') || value.includes('postfix') || value.includes('dns')) return 'terminal';
